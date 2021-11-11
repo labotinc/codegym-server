@@ -1,0 +1,15 @@
+version: '3'
+services:
+    amazonlinux:
+        build:
+            context: ./
+            dockerfile: ./amazonlinux.Dockerfile
+        ports:
+            - "50080:80"
+            - "53306:3306"
+        container_name: amazonlinux
+        volumes:
+            - ./amazonlinux/var/log:/var/log
+        tty: true
+        privileged: true
+
