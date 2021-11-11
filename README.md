@@ -1,6 +1,6 @@
 # codegym-server
 
-- 以下の手順のコマンド実行は`cd docker`でMakefileのあるディレクトリ内で行ってください。
+- 以下の手順のコマンド実行は、`cd docker`でMakefileのあるディレクトリ内に移動してから実行してください。
 
 # 手順
 
