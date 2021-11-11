@@ -1,12 +1,13 @@
 # codegym-server
 
+- 以下の手順のコマンド実行は`cd docker`でMakefileのあるディレクトリ内で行ってください。
+
 # 手順
 
 ## 初回起動手順
 
 ```
 make build
-
 make up
 ```
 
